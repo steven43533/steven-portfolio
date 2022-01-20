@@ -31,7 +31,9 @@ function App() {
       <Skills />
       <br />
       <About />
-      <ScrollToTop smooth />
+      <ScrollToTop  
+        style={{opacity:0.2}}
+      />
     </div>
     
 

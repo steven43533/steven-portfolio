@@ -9,17 +9,21 @@ a {
   margin-right: 15px;
 }
 
-.about-me {
+.about-me-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-.about-me div {
-  width: 300px;
+
+.about-me {
+  font-size: large;
+  flex-wrap: wrap;
+  width: 400px;
 }
 
 .profile-pic {
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
 }
 img {

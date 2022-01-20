@@ -6,11 +6,13 @@ function About(props) {
             <Typography variant="h4" className='topicHeaders'>
                 About
             </Typography>
-            <img src="https://i.postimg.cc/W3GKvMJN/profile.jpg" alt="profile" className="profile-pic" />
-            <div className="about-me">
-                <p>
-                    I'm a software developer that can comfortably work in the frontend or backend. Working in close knit teams is where I thrive in. In software development there is always something to learn and I aim to end each day with a bit more knowledge.
-                </p>
+            <div className="about-me-container">
+                <img src="https://i.postimg.cc/W3GKvMJN/profile.jpg" alt="profile" className="profile-pic" />
+                <div className="about-me">
+                    <p>
+                        Fullstack software developer. Based in Georgia. Working in close knit teams is where I thrive in. In software development there is always something to learn and I aim to end each day with a bit more knowledge.
+                    </p>
+                </div>
             </div>
 
         </div>
