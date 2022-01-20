@@ -1,25 +1,41 @@
-import logo from './logo.svg';
 import './App.css';
+import Projects from './Projects';
+import Navbar from './Navbar';
+import Skills from './Skills';
+import About from './About';
+import Typewriter from 'typewriter-effect'
+import ScrollToTop from 'react-scroll-to-top';
+import '@fontsource/roboto/300.css';
+import { Typography } from '@mui/material';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      <Navbar />
+      <div>
+        <div>
+          <Typography variant='h2'>
+            Steven Lopez
+          </Typography>
+          <Typewriter
+            options={{
+              strings: ['Web Developer', 'Always Learning', 'Self-Driven'],
+              autoStart: true,
+              loop: true
+            }}
+          />
+        </div>
+      </div>
+      <Projects />
+      <br />
+      <Skills />
+      <br />
+      <About />
+      <ScrollToTop smooth />
     </div>
-  );
+    
+
+  )
 }
 
 export default App;
