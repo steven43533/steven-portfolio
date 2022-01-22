@@ -8,7 +8,17 @@ a {
   color: whitesmoke;
   margin-right: 15px;
 }
-
+.MuiCard-root {
+  position: relative;
+}
+.MuiCardActions-root {
+  position: absolute;
+  bottom: 0;
+}
+.MuiCardContent-root {
+  margin-bottom: 35px;
+  
+}
 .about-me-container {
   display: flex;
   flex-direction: column;
@@ -32,7 +42,7 @@ img {
 }
 
 .topicHeaders {
-  color: orange
+  color: #F55C5C;
 }
 .container {
   margin: 15px;
@@ -63,6 +73,7 @@ img {
   flex-direction:row;
   justify-content: center;
   gap: 15px;
+  margin-bottom: 25px;
 }
 
 @media screen and (max-width: 600px) {

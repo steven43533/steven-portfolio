@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography';
 
 function Thumbnail(props) {
     return (
-        <Card sx={{ maxWidth: 250 }}>
+        <Card variant="outlined" sx={{ maxWidth: 250 }}>
             <CardMedia
                 component="img"
                 alt="project "
@@ -20,7 +20,7 @@ function Thumbnail(props) {
                 <Typography gutterBottom variant="h5" component="div">
                     {props.title}
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
+                <Typography variant="body1" color="text.secondary">
                     {props.description}
                 </Typography>
             </CardContent>
