@@ -14,8 +14,8 @@ function Projects(props) {
                     link="https://cryptobyte.herokuapp.com/"
                     GitHubRepo="https://github.com/steven43533/client-cryptoBytes"
                     image="https://i.postimg.cc/yYgqDkkT/Screen-Shot-2022-01-15-at-1-25-18-PM.png"
-                    title="CryptoBytes"
-                    description="Using the CoinCap API, Cryptobytes is a cryptocoin based websites that takes the top 100 coins according to Coincap and allows you to view each coin, see more detailed information, and allows you to add small comments to each coin you save/track "
+                    title="CryptoByte"
+                    description="Using the CoinCap API, CryptoBytes is a cryptocoin based websites that takes the top 100 coins according to Coincap and allows you to view each coin, see more detailed information, and allows you to add small comments to each coin you save/track "
                     category="Desktop Application"
                 />
                 <Thumbnail

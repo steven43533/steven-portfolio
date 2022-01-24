@@ -13,7 +13,7 @@ function App() {
     <div className='container'>
       <Navbar />
       <div>
-        <div>
+        <div className='name-and-typewriter'>
           <Typography variant='h2'>
             Steven Lopez
           </Typography>
@@ -31,11 +31,11 @@ function App() {
       <Skills />
       <br />
       <About />
-      <ScrollToTop  
-        style={{opacity:0.2}}
+      <ScrollToTop
+        style={{ opacity: 0.2 }}
       />
     </div>
-    
+
 
   )
 }

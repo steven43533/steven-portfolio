@@ -7,6 +7,7 @@ const Navbar = (props) => {
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
+            <a href="https://www.linkedin.com/in/steven-lopez1/" target="_blank">LinkedIn</a>
         </div>
 
 

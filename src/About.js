@@ -10,7 +10,11 @@ function About(props) {
                 <img src="https://i.postimg.cc/W3GKvMJN/profile.jpg" alt="profile" className="profile-pic" />
                 <div className="about-me">
                     <p>
-                        Fullstack software developer. Based in Georgia. Working in close knit teams is where I thrive in. In software development there is always something to learn and I aim to end each day with a bit more knowledge.
+                        Fullstack software developer, based in Georgia. 
+                        Working in close knit teams is where I thrive. 
+                        In software development there is always something 
+                        to learn and I aim to end each day with a bit more knowledge.
+                        Avid fan of making cold brew and moka pots. 
                     </p>
                 </div>
             </div>
