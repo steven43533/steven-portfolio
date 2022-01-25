@@ -14,7 +14,7 @@ function About(props) {
                         Working in close knit teams is where I thrive. 
                         In software development there is always something 
                         to learn and I aim to end each day with a bit more knowledge.
-                        Avid fan of making cold brew and moka pots. 
+                        Avid fan of making cold brew and using my moka pot. 
                     </p>
                 </div>
             </div>
