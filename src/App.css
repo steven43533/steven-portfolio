@@ -4,20 +4,25 @@ li {
 
 a {
   text-decoration: none;
-  color: whitesmoke;
+  color: #F2A922;
   margin-right: 15px;
 }
+
 .MuiCard-root {
   position: relative;
 }
+
 .MuiCardActions-root {
   position: absolute;
   bottom: 0;
 }
+
 .MuiCardContent-root {
   margin-bottom: 35px;
-  
+  color: #BF3636;
+
 }
+
 .about-me-container {
   display: flex;
   flex-direction: column;
@@ -35,16 +40,18 @@ a {
   width: 200px;
   border-radius: 50%;
 }
+
 img {
   height: 150px;
   width: 200px;
 }
 
 .topicHeaders {
-  color: #F55C5C;
+  color: #F2A922;
   font-weight: bold;
-  text-decoration: underline;
+  padding-bottom: 20px;
 }
+
 .container {
   margin: 15px;
   text-align: center;
@@ -56,17 +63,19 @@ img {
   text-align: center;
 }
 
+
 .navitems {
   display: flex;
   justify-content: center;
   padding-bottom: 15px;
+  color: #03A6A6;
 }
 
 .name-and-typewriter {
   padding-bottom: 15px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .allSkills {
     display: flex;
     flex-wrap: wrap;
@@ -76,7 +85,7 @@ img {
 
 .projects {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   justify-content: center;
   gap: 15px;
   margin-bottom: 25px;
@@ -94,4 +103,3 @@ img {
   display: inline-block;
 
 }
-

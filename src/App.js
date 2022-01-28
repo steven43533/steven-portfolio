@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <div>
         <div className='name-and-typewriter'>
-          <Typography variant='h2'>
+          <Typography variant='h2' className='my-name'>
             Steven Lopez
           </Typography>
           <Typewriter
