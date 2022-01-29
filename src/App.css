@@ -4,7 +4,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #F2A922;
+  color: black;
   margin-right: 15px;
 }
 
@@ -33,6 +33,7 @@ a {
   font-size: large;
   flex-wrap: wrap;
   width: 400px;
+  color: black;
 }
 
 .profile-pic {
@@ -47,7 +48,7 @@ img {
 }
 
 .topicHeaders {
-  color: #F2A922;
+  color: black;
   font-weight: bold;
   padding-bottom: 20px;
 }
@@ -68,11 +69,11 @@ img {
   display: flex;
   justify-content: center;
   padding-bottom: 15px;
-  color: #03A6A6;
 }
 
 .name-and-typewriter {
   padding-bottom: 15px;
+  color: black;
 }
 
 @media screen and (max-width: 600px) {
