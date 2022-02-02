@@ -19,7 +19,7 @@ function App() {
           </Typography>
           <Typewriter
             options={{
-              strings: ['Web Developer', 'Always Learning', 'Self-Driven'],
+              strings: ['Web Developer', 'Always Learning', 'Self-Driven', 'Values team-work', 'Enjoys problem solving'],
               autoStart: true,
               loop: true
             }}
